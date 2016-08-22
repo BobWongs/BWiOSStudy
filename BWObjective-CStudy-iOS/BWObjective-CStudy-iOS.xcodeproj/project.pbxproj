@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		B443A1891D547F59003D66C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B443A1881D547F59003D66C5 /* main.m */; };
 		B443A18C1D547F59003D66C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B443A18B1D547F59003D66C5 /* AppDelegate.m */; };
-		B443A18F1D547F59003D66C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B443A18E1D547F59003D66C5 /* ViewController.m */; };
 		B443A1921D547F59003D66C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B443A1901D547F59003D66C5 /* Main.storyboard */; };
 		B443A1941D547F59003D66C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B443A1931D547F59003D66C5 /* Assets.xcassets */; };
 		B443A1971D547F59003D66C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B443A1951D547F59003D66C5 /* LaunchScreen.storyboard */; };
 		B443A1A21D547F59003D66C5 /* BWObjective_CStudy_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B443A1A11D547F59003D66C5 /* BWObjective_CStudy_iOSTests.m */; };
 		B443A1AD1D547F59003D66C5 /* BWObjective_CStudy_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B443A1AC1D547F59003D66C5 /* BWObjective_CStudy_iOSUITests.m */; };
+		B4B8BBD71D6ACC0D008BB3B7 /* BWHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBD61D6ACC0D008BB3B7 /* BWHomeController.m */; };
+		B4B8BBDA1D6ACC1F008BB3B7 /* BWRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBD91D6ACC1F008BB3B7 /* BWRuntimeController.m */; };
+		B4B8BBDF1D6AD23C008BB3B7 /* NSObject+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBDE1D6AD23C008BB3B7 /* NSObject+BWAdd.m */; };
+		B4B8BBE21D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBE11D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.m */; };
+		B4B8BBE51D6AE967008BB3B7 /* UIViewController+BWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBE41D6AE967008BB3B7 /* UIViewController+BWAdd.m */; };
+		B4B8BBEA1D6AF0D8008BB3B7 /* BWKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBE91D6AF0D8008BB3B7 /* BWKVOController.m */; };
+		B4B8BBED1D6AF0E3008BB3B7 /* BWKVCController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B8BBEC1D6AF0E3008BB3B7 /* BWKVCController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		B443A1881D547F59003D66C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B443A18A1D547F59003D66C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B443A18B1D547F59003D66C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B443A18D1D547F59003D66C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B443A18E1D547F59003D66C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B443A1911D547F59003D66C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B443A1931D547F59003D66C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B443A1961D547F59003D66C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 		B443A1A81D547F59003D66C5 /* BWObjective-CStudy-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BWObjective-CStudy-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B443A1AC1D547F59003D66C5 /* BWObjective_CStudy_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWObjective_CStudy_iOSUITests.m; sourceTree = "<group>"; };
 		B443A1AE1D547F59003D66C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B8BBD51D6ACC0D008BB3B7 /* BWHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeController.h; sourceTree = "<group>"; };
+		B4B8BBD61D6ACC0D008BB3B7 /* BWHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeController.m; sourceTree = "<group>"; };
+		B4B8BBD81D6ACC1F008BB3B7 /* BWRuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWRuntimeController.h; sourceTree = "<group>"; };
+		B4B8BBD91D6ACC1F008BB3B7 /* BWRuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWRuntimeController.m; sourceTree = "<group>"; };
+		B4B8BBDD1D6AD23C008BB3B7 /* NSObject+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BWAdd.h"; sourceTree = "<group>"; };
+		B4B8BBDE1D6AD23C008BB3B7 /* NSObject+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BWAdd.m"; sourceTree = "<group>"; };
+		B4B8BBE01D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BWMethodSwizzling.h"; sourceTree = "<group>"; };
+		B4B8BBE11D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BWMethodSwizzling.m"; sourceTree = "<group>"; };
+		B4B8BBE31D6AE967008BB3B7 /* UIViewController+BWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BWAdd.h"; sourceTree = "<group>"; };
+		B4B8BBE41D6AE967008BB3B7 /* UIViewController+BWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BWAdd.m"; sourceTree = "<group>"; };
+		B4B8BBE81D6AF0D8008BB3B7 /* BWKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWKVOController.h; sourceTree = "<group>"; };
+		B4B8BBE91D6AF0D8008BB3B7 /* BWKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWKVOController.m; sourceTree = "<group>"; };
+		B4B8BBEB1D6AF0E3008BB3B7 /* BWKVCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWKVCController.h; sourceTree = "<group>"; };
+		B4B8BBEC1D6AF0E3008BB3B7 /* BWKVCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWKVCController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +121,9 @@
 			children = (
 				B443A18A1D547F59003D66C5 /* AppDelegate.h */,
 				B443A18B1D547F59003D66C5 /* AppDelegate.m */,
-				B443A18D1D547F59003D66C5 /* ViewController.h */,
-				B443A18E1D547F59003D66C5 /* ViewController.m */,
 				B443A1901D547F59003D66C5 /* Main.storyboard */,
+				B4B8BBD21D6ACBB1008BB3B7 /* Controller */,
 				B443A1931D547F59003D66C5 /* Assets.xcassets */,
-				B443A1951D547F59003D66C5 /* LaunchScreen.storyboard */,
-				B443A1981D547F59003D66C5 /* Info.plist */,
 				B443A1871D547F59003D66C5 /* Supporting Files */,
 			);
 			path = "BWObjective-CStudy-iOS";
@@ -117,6 +132,8 @@
 		B443A1871D547F59003D66C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B443A1981D547F59003D66C5 /* Info.plist */,
+				B443A1951D547F59003D66C5 /* LaunchScreen.storyboard */,
 				B443A1881D547F59003D66C5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +155,75 @@
 				B443A1AE1D547F59003D66C5 /* Info.plist */,
 			);
 			path = "BWObjective-CStudy-iOSUITests";
+			sourceTree = "<group>";
+		};
+		B4B8BBD21D6ACBB1008BB3B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBD41D6ACBE6008BB3B7 /* Home */,
+				B4B8BBD31D6ACBD5008BB3B7 /* Runtime */,
+				B4B8BBE71D6AF061008BB3B7 /* KVO */,
+				B4B8BBE61D6AF061008BB3B7 /* KVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4B8BBD31D6ACBD5008BB3B7 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBD81D6ACC1F008BB3B7 /* BWRuntimeController.h */,
+				B4B8BBD91D6ACC1F008BB3B7 /* BWRuntimeController.m */,
+				B4B8BBDB1D6ACEF1008BB3B7 /* PropertyDynamicBinding */,
+				B4B8BBDC1D6AD176008BB3B7 /* Method Swizzling */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		B4B8BBD41D6ACBE6008BB3B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBD51D6ACC0D008BB3B7 /* BWHomeController.h */,
+				B4B8BBD61D6ACC0D008BB3B7 /* BWHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4B8BBDB1D6ACEF1008BB3B7 /* PropertyDynamicBinding */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBDD1D6AD23C008BB3B7 /* NSObject+BWAdd.h */,
+				B4B8BBDE1D6AD23C008BB3B7 /* NSObject+BWAdd.m */,
+			);
+			path = PropertyDynamicBinding;
+			sourceTree = "<group>";
+		};
+		B4B8BBDC1D6AD176008BB3B7 /* Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBE01D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.h */,
+				B4B8BBE11D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.m */,
+				B4B8BBE31D6AE967008BB3B7 /* UIViewController+BWAdd.h */,
+				B4B8BBE41D6AE967008BB3B7 /* UIViewController+BWAdd.m */,
+			);
+			path = "Method Swizzling";
+			sourceTree = "<group>";
+		};
+		B4B8BBE61D6AF061008BB3B7 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBEB1D6AF0E3008BB3B7 /* BWKVCController.h */,
+				B4B8BBEC1D6AF0E3008BB3B7 /* BWKVCController.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		B4B8BBE71D6AF061008BB3B7 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				B4B8BBE81D6AF0D8008BB3B7 /* BWKVOController.h */,
+				B4B8BBE91D6AF0D8008BB3B7 /* BWKVOController.m */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B443A18F1D547F59003D66C5 /* ViewController.m in Sources */,
+				B4B8BBE51D6AE967008BB3B7 /* UIViewController+BWAdd.m in Sources */,
+				B4B8BBEA1D6AF0D8008BB3B7 /* BWKVOController.m in Sources */,
+				B4B8BBED1D6AF0E3008BB3B7 /* BWKVCController.m in Sources */,
+				B4B8BBE21D6AE09A008BB3B7 /* UIViewController+BWMethodSwizzling.m in Sources */,
 				B443A18C1D547F59003D66C5 /* AppDelegate.m in Sources */,
+				B4B8BBDA1D6ACC1F008BB3B7 /* BWRuntimeController.m in Sources */,
+				B4B8BBD71D6ACC0D008BB3B7 /* BWHomeController.m in Sources */,
 				B443A1891D547F59003D66C5 /* main.m in Sources */,
+				B4B8BBDF1D6AD23C008BB3B7 /* NSObject+BWAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BWObjective-CStudy-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWObjective-CStudy-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BWObjective-CStudy-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWObjective-CStudy-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +590,7 @@
 				B443A1B31D547F59003D66C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B443A1B41D547F59003D66C5 /* Build configuration list for PBXNativeTarget "BWObjective-CStudy-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +599,7 @@
 				B443A1B61D547F59003D66C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B443A1B71D547F59003D66C5 /* Build configuration list for PBXNativeTarget "BWObjective-CStudy-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +608,7 @@
 				B443A1B91D547F59003D66C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

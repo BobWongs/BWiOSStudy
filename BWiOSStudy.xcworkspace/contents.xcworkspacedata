@@ -13,4 +13,7 @@
    <FileRef
       location = "group:BWSwiftStudy-iOS/BWSwiftStudy-iOS.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
 </Workspace>
