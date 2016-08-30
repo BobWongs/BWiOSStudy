@@ -15,6 +15,7 @@ func swiftFoundation() {
     swiftComment()
     swiftStatement()
     swiftDataType()
+    print("sum is \(sum(10, numB: 50))")
 }
 
 // MARK: 打印
@@ -111,6 +112,7 @@ func swiftDataType() {
     
     /*======================
         数组
+        []
      =======================*/
     let array = ["first", "second", "third"]
     for item in array {
@@ -120,6 +122,7 @@ func swiftDataType() {
     
     /*======================
         字典
+        [:]
      =======================*/
     let dict = [
         "keyA": "valueA",
@@ -128,4 +131,10 @@ func swiftDataType() {
     ]
     print("keyA's value is %@", dict["keyA"])
     
+}
+
+// MARK: 方法的定义
+
+func sum(numA: Int, numB: Int) -> Int {
+    return numA + numB;
 }

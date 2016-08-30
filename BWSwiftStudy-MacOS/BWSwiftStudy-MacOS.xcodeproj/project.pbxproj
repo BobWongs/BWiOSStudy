@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B45C5B431D518068006BD33A /* BWFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C5B421D518068006BD33A /* BWFoundation.swift */; };
 		B45D88021D4F3117001E7F74 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D88011D4F3117001E7F74 /* main.swift */; };
+		B46C14EE1D753E0B0052D188 /* BWOOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14ED1D753E0B0052D188 /* BWOOP.swift */; };
+		B46C14F21D7584610052D188 /* BWExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14F11D7584610052D188 /* BWExtension.swift */; };
+		B46C14F41D7589280052D188 /* BWString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14F31D7589280052D188 /* BWString.swift */; };
+		B46C14F61D7589430052D188 /* BWCollectionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C14F51D7589430052D188 /* BWCollectionClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		B45C5B421D518068006BD33A /* BWFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWFoundation.swift; sourceTree = "<group>"; };
 		B45D87FE1D4F3117001E7F74 /* BWSwiftStudy-MacOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BWSwiftStudy-MacOS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D88011D4F3117001E7F74 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B46C14ED1D753E0B0052D188 /* BWOOP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWOOP.swift; sourceTree = "<group>"; };
+		B46C14F11D7584610052D188 /* BWExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWExtension.swift; sourceTree = "<group>"; };
+		B46C14F31D7589280052D188 /* BWString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWString.swift; sourceTree = "<group>"; };
+		B46C14F51D7589430052D188 /* BWCollectionClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWCollectionClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				B45C5B421D518068006BD33A /* BWFoundation.swift */,
+				B46C14F31D7589280052D188 /* BWString.swift */,
+				B46C14F51D7589430052D188 /* BWCollectionClass.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -69,8 +79,26 @@
 			children = (
 				B45D88011D4F3117001E7F74 /* main.swift */,
 				B45C5B3D1D518016006BD33A /* Foundation */,
+				B46C14EC1D753D3D0052D188 /* Object_Oriented_Programming */,
+				B46C14EB1D753D3D0052D188 /* Advanced */,
 			);
 			path = "BWSwiftStudy-MacOS";
+			sourceTree = "<group>";
+		};
+		B46C14EB1D753D3D0052D188 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		B46C14EC1D753D3D0052D188 /* Object_Oriented_Programming */ = {
+			isa = PBXGroup;
+			children = (
+				B46C14ED1D753E0B0052D188 /* BWOOP.swift */,
+				B46C14F11D7584610052D188 /* BWExtension.swift */,
+			);
+			path = Object_Oriented_Programming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46C14F41D7589280052D188 /* BWString.swift in Sources */,
+				B46C14EE1D753E0B0052D188 /* BWOOP.swift in Sources */,
 				B45C5B431D518068006BD33A /* BWFoundation.swift in Sources */,
+				B46C14F21D7584610052D188 /* BWExtension.swift in Sources */,
 				B45D88021D4F3117001E7F74 /* main.swift in Sources */,
+				B46C14F61D7589430052D188 /* BWCollectionClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
