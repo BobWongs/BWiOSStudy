@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B45D87AF1D4F309E001E7F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D87AE1D4F309E001E7F74 /* AppDelegate.swift */; };
-		B45D87B11D4F309E001E7F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D87B01D4F309E001E7F74 /* ViewController.swift */; };
-		B45D87B41D4F309E001E7F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45D87B21D4F309E001E7F74 /* Main.storyboard */; };
 		B45D87B61D4F309E001E7F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45D87B51D4F309E001E7F74 /* Assets.xcassets */; };
 		B45D87B91D4F309E001E7F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45D87B71D4F309E001E7F74 /* LaunchScreen.storyboard */; };
 		B45D87C41D4F309E001E7F74 /* BWSwiftStudy_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D87C31D4F309E001E7F74 /* BWSwiftStudy_iOSTests.swift */; };
 		B45D87CF1D4F309E001E7F74 /* BWSwiftStudy_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D87CE1D4F309E001E7F74 /* BWSwiftStudy_iOSUITests.swift */; };
+		B4A383DC1DDAC19600E7C47A /* BWBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A383DB1DDAC19600E7C47A /* BWBaseVC.swift */; };
+		B4A383DE1DDAC1B000E7C47A /* BWHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A383DD1DDAC1B000E7C47A /* BWHomeVC.swift */; };
+		B4A383E01DDAC56D00E7C47A /* BWGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A383DF1DDAC56D00E7C47A /* BWGlobal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,6 @@
 /* Begin PBXFileReference section */
 		B45D87AB1D4F309E001E7F74 /* BWSwiftStudy-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BWSwiftStudy-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D87AE1D4F309E001E7F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B45D87B01D4F309E001E7F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B45D87B31D4F309E001E7F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B45D87B51D4F309E001E7F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45D87B81D4F309E001E7F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45D87BA1D4F309E001E7F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		B45D87CA1D4F309E001E7F74 /* BWSwiftStudy-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BWSwiftStudy-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45D87CE1D4F309E001E7F74 /* BWSwiftStudy_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BWSwiftStudy_iOSUITests.swift; sourceTree = "<group>"; };
 		B45D87D01D4F309E001E7F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A383DB1DDAC19600E7C47A /* BWBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWBaseVC.swift; sourceTree = "<group>"; };
+		B4A383DD1DDAC1B000E7C47A /* BWHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWHomeVC.swift; sourceTree = "<group>"; };
+		B4A383DF1DDAC56D00E7C47A /* BWGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWGlobal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				B45D87AE1D4F309E001E7F74 /* AppDelegate.swift */,
-				B45D87B01D4F309E001E7F74 /* ViewController.swift */,
-				B45D87B21D4F309E001E7F74 /* Main.storyboard */,
+				B4A383DF1DDAC56D00E7C47A /* BWGlobal.swift */,
+				B4A383D81DDAC04500E7C47A /* MVC */,
 				B45D87B51D4F309E001E7F74 /* Assets.xcassets */,
 				B45D87B71D4F309E001E7F74 /* LaunchScreen.storyboard */,
 				B45D87BA1D4F309E001E7F74 /* Info.plist */,
@@ -123,6 +125,31 @@
 				B45D87D01D4F309E001E7F74 /* Info.plist */,
 			);
 			path = "BWSwiftStudy-iOSUITests";
+			sourceTree = "<group>";
+		};
+		B4A383D81DDAC04500E7C47A /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4A383D91DDAC06700E7C47A /* BaseVC */,
+				B4A383DA1DDAC06800E7C47A /* Home */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		B4A383D91DDAC06700E7C47A /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				B4A383DB1DDAC19600E7C47A /* BWBaseVC.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		B4A383DA1DDAC06800E7C47A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4A383DD1DDAC1B000E7C47A /* BWHomeVC.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +258,6 @@
 			files = (
 				B45D87B91D4F309E001E7F74 /* LaunchScreen.storyboard in Resources */,
 				B45D87B61D4F309E001E7F74 /* Assets.xcassets in Resources */,
-				B45D87B41D4F309E001E7F74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B45D87B11D4F309E001E7F74 /* ViewController.swift in Sources */,
+				B4A383DE1DDAC1B000E7C47A /* BWHomeVC.swift in Sources */,
+				B4A383DC1DDAC19600E7C47A /* BWBaseVC.swift in Sources */,
 				B45D87AF1D4F309E001E7F74 /* AppDelegate.swift in Sources */,
+				B4A383E01DDAC56D00E7C47A /* BWGlobal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B45D87B21D4F309E001E7F74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B45D87B31D4F309E001E7F74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B45D87B71D4F309E001E7F74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -400,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BWSwiftStudy-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWSwiftStudy-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BWSwiftStudy-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.BWSwiftStudy-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +504,7 @@
 				B45D87D51D4F309E001E7F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45D87D61D4F309E001E7F74 /* Build configuration list for PBXNativeTarget "BWSwiftStudy-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +513,7 @@
 				B45D87D81D4F309E001E7F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B45D87D91D4F309E001E7F74 /* Build configuration list for PBXNativeTarget "BWSwiftStudy-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +522,7 @@
 				B45D87DB1D4F309E001E7F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
