@@ -27,7 +27,7 @@ class BWHomeVC: BWBaseVC, UITableViewDataSource, UITableViewDelegate {
         super.viewDidLoad()
         
         self.title = "Home"
-        dataSource = ["first", "second", "third", "forth", "fifth"];
+        dataSource = [NSStringFromClass(BWMySwiftVC), "second", "third", "forth", "fifth"];
         
         self.setNavigationBar()
         self.setUI()
@@ -85,8 +85,16 @@ class BWHomeVC: BWBaseVC, UITableViewDataSource, UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: false)
         
-        let vc = UIViewController.init()
-        self.navigationController?.pushViewController(vc, animated: true)
+        var vc: BWBaseVC?
+        
+        switch indexPath.row {
+        case 0:
+            vc = BWMySwiftVC.init()
+        default:
+            vc = BWBaseVC.init()
+        }
+        
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
 }
