@@ -16,4 +16,8 @@ class BWBaseVC: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
     }
     
+    deinit {
+        print("\(NSStringFromClass(self.dynamicType)) has been dealloc")
+    }
+    
 }

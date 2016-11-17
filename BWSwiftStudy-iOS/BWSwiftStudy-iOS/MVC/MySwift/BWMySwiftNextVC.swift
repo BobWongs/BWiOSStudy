@@ -11,6 +11,7 @@ import UIKit
 class BWMySwiftNextVC: BWBaseVC {
     
     weak var delegate: BWMySwiftDelegate?
+    var blockSetTextViewText: (String) -> () = {param in }
     
     
     override func viewDidLoad() {
@@ -24,6 +25,8 @@ class BWMySwiftNextVC: BWBaseVC {
     
     func barButtonItemAct() {
         delegate?.mySwiftDelegateSetLabelText("My Delegate Text")
+        blockSetTextViewText("My Block Text")
+        
         self.navigationController?.popViewControllerAnimated(true)
     }
     

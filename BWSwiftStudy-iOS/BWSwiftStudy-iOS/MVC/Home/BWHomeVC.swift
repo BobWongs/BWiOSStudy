@@ -27,7 +27,7 @@ class BWHomeVC: BWBaseVC, UITableViewDataSource, UITableViewDelegate {
         super.viewDidLoad()
         
         self.title = "Home"
-        dataSource = [NSStringFromClass(BWMySwiftVC), "second", "third", "forth", "fifth"];
+        dataSource = [NSStringFromClass(BWMySwiftVC), NSStringFromClass(BWWebViewVC), "third", "forth", "fifth"];
         
         self.setNavigationBar()
         self.setUI()
@@ -90,6 +90,8 @@ class BWHomeVC: BWBaseVC, UITableViewDataSource, UITableViewDelegate {
         switch indexPath.row {
         case 0:
             vc = BWMySwiftVC.init()
+        case 1:
+            vc = BWWebViewVC.init(nibName: "BWWebViewVC", bundle: nil)
         default:
             vc = BWBaseVC.init()
         }

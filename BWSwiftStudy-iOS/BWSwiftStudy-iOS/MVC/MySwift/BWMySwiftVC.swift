@@ -11,7 +11,10 @@ import UIKit
 class BWMySwiftVC: BWBaseVC, UITextFieldDelegate, BWMySwiftDelegate {
     
     var label: UILabel?
+    var textView: UITextView?
     
+    
+    // MARK: View Life
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,8 @@ class BWMySwiftVC: BWBaseVC, UITextFieldDelegate, BWMySwiftDelegate {
         
         self.setUI()
     }
+    
+    // MARK: Private Method
     
     func setUI() {
         label = UILabel.init(frame: CGRectMake(20, 64 + 20, 200, 35))
@@ -38,12 +43,12 @@ class BWMySwiftVC: BWBaseVC, UITextFieldDelegate, BWMySwiftDelegate {
         imageView.backgroundColor = UIColor.grayColor()
         self.view.addSubview(imageView)
         
-        let textView = UITextView.init(frame: CGRectMake(20, CGRectGetMaxY(imageView.frame) + 20, 200, 50))
-        textView.backgroundColor = UIColor.grayColor()
-        self.view.addSubview(textView)
+        textView = UITextView.init(frame: CGRectMake(20, CGRectGetMaxY(imageView.frame) + 20, 200, 50))
+        textView!.backgroundColor = UIColor.grayColor()
+        self.view.addSubview(textView!)
         
         let button = UIButton.init(type: .Custom)
-        button.frame = CGRectMake(20, CGRectGetMaxY(textView.frame), 200, 44)
+        button.frame = CGRectMake(20, CGRectGetMaxY(textView!.frame), 200, 44)
         button.setTitleColor(UIColor.darkTextColor(), forState: .Normal)
         button.setTitle("Button", forState: .Normal)
         button.addTarget(self, action: #selector(buttonAct), forControlEvents: .TouchUpInside)
@@ -61,6 +66,10 @@ class BWMySwiftVC: BWBaseVC, UITextFieldDelegate, BWMySwiftDelegate {
         
         let vcNext = BWMySwiftNextVC.init()
         vcNext.delegate = self
+        vcNext.blockSetTextViewText = {
+            (text: String) -> () in
+            self.textView?.text = text
+        }
         self.navigationController?.pushViewController(vcNext, animated: true)
     }
     
